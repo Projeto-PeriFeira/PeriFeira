@@ -2,7 +2,7 @@
 <img src="link-logo-projeto">
 </p>
 
- ## Projeto Java ##
+ ## Projeto Integrador ##
 
 Este projeto faz parte da finalização do Bloco 2 e 3 do Bootcamp Full-Stack Java da turma 63 [Generation Brasil](https://brazil.generation.org/).
 
@@ -16,7 +16,7 @@ Aqui aplicamos os conceitos de:
 - Exceptions
 
 ## Sobre o tema  
-### <emoji> <titulo do projeto>
+### 🧺 Perifeira
 <frase conceitual do projeto>
   
 ### 📑 Funcionalidades
@@ -36,7 +36,7 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
 ### 📏 Organização do projeto
 <arrumar>
 ```
- 📁 <nome do projeto>
+ 📁 pefireira
    |- 📁 src
    |   |- 📁 application
    |   |    |- 📑 Menu.java
@@ -47,6 +47,11 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 .gitignore
    |- 📑 README.md
 ```
+ #### Diagrama de Classes
+ ![Diagrama de Classe]()
+ 
+ ##### Adicionais
+ - [EAP]()
   
 ## 💟 Agradecimentos ##
 **É o Grupo 4!**
