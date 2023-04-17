@@ -1,0 +1,51 @@
+@startuml
+!theme blueprint
+title Exemplo de caso de uso do PI
+
+
+'Creating actors
+together {
+top to bottom direction
+actor "Usuario logado" as usuarioLogado <<l>>
+actor :Usuario não logado: as usuarioNaoLogado
+}
+actor :Admnistrador: as admin
+
+
+rectangle "Limite do Sistema" {
+
+'Adding extensions
+usuarioNaoLogado <|-- usuarioLogado
+usuarioLogado <|-- admin
+
+'Caso de uso do usario não logado
+usuarioNaoLogado -r- (Fazer login)
+(Fazer login) .d.> (Fazer cadastro): estender
+(Fazer cadastro) -|> (Fazer login)
+(Fazer login) <.d. (Exibir erro de login): estender
+(Fazer login) .d.> (Verificar conta): incluir
+(Verificar conta) .d.> (Exibir erro de login): incluir 
+
+'Caso de uso do usuario logado
+rectangle "Produtos" {
+usuarioLogado -r- (Procurar produtos)
+(Procurar produtos) .> (Listar produtos): incluir
+(Listar produtos) <. (Visualizar produto): estender
+usuarioLogado -r- (Visualizar carrinho)
+(Visualizar produto) .d.> (Comprar produto): estender
+
+'Caso de uso do admin
+admin .d.> (Adicionar produto): incluir
+admin .d.> (Remover produto): incluir
+admin .d.> (Editar produto): incluir
+}
+
+rectangle "Perfil" {
+(Visualizar carrinho) .d.> (Visualizar produto):incluir
+usuarioLogado -r- (Visualizar perfil)
+(Visualizar perfil) <.d. (Configurar perfil): estender
+(Procurar produtos) .d.> (Visualizar produto): estender
+usuarioLogado -r- (Sair do login)
+}
+}
+@enduml
