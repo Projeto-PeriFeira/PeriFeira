@@ -34,7 +34,6 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
 
 
 ### 📏 Organização do projeto
-<arrumar>
 ```
  📁 pefireira
    |- 📁 src
@@ -47,6 +46,7 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 .gitignore
    |- 📑 README.md
 ```
+
  #### Diagrama de Classes
  ![Diagrama de Classe]()
  
