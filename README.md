@@ -10,13 +10,15 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-Este projeto faz parte da finalização do Bloco 2 e 3 do Bootcamp Full-Stack Java da turma 63 [Generation Brasil](https://brazil.generation.org/).
+![Visitates](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FProjeto-Integrador-Generation%2Fprojeto-integrador&label=V%20I%20S%20I%20T%20A%20N%20T%20E%20S&labelColor=%2320232a&countColor=%2320232a&labelStyle=upper)
 
 [Sobre o tema](#sobre-o-tema) •
 [📑 Funcionalidades](#-funcionalidades) •
 [📽 Execução](#-execução) •
 [💻 Desenvolvedores](#-desenvolvedores) •
 [📏 Organização do Projeto](#-organização-do-projeto)
+
+Este projeto faz parte da finalização do Bloco 2 e 3 do Bootcamp Full-Stack Java da turma 63 [Generation Brasil](https://brazil.generation.org/).
 
 </div>
 
