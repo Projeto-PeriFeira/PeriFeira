@@ -1,12 +1,28 @@
-<p align="center">
+<div align="center">
 <img src="link-logo-projeto">
-</p>
 
- ## Projeto Integrador ##
+# Projeto Integrador
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
 Este projeto faz parte da finalização do Bloco 2 e 3 do Bootcamp Full-Stack Java da turma 63 [Generation Brasil](https://brazil.generation.org/).
 
-Aqui aplicamos os conceitos de:
+[Sobre o tema](#sobre-o-tema) •
+[📑 Funcionalidades](#-funcionalidades) •
+[📽 Execução](#-execução) •
+[💻 Desenvolvedores](#-desenvolvedores) •
+[📏 Organização do Projeto](#-organização-do-projeto)
+
+</div>
+
+
+
+Aplicamos os conceitos de:
 - Laços Condicionais
 - Laços de Repetição
 - Métodos e Modificadores de acesso
@@ -15,17 +31,22 @@ Aqui aplicamos os conceitos de:
 - Collections
 - Exceptions
 
-## Sobre o tema  
-### 🧺 Perifeira
+# Sobre o tema
+
+<div align="center">
+
+## 🧺 Perifeira
 <frase conceitual do projeto>
-  
-### 📑 Funcionalidades
+
+</div>
+
+## 📑 Funcionalidades
 <funcoes>
 
 ## Sobre o desenvolvimento do sistema
 Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada a Objetos (POO), Banco de Dados MySQL e o framework Spring.
 
-### 📽 Execução
+## 📽 Execução
 <gif>
  
 ### 💻 Desenvolvedores
@@ -33,7 +54,7 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
 
-### 📏 Organização do projeto
+## 📏 Organização do projeto
 ```
  📁 pefireira
    |- 📁 src
@@ -54,16 +75,16 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 README.md
 ```
 
- #### Diagrama de Classes
+ ### Diagrama de Classes
 
  ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/diagrama_classes.png)
  
- ##### Adicionais
+ #### Adicionais
  | EAP | Caso de Uso |
  |-|-|
  ![EAP](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/eap.png) | ![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/caso_de_uso.png)
   
-## 💟 Agradecimentos ##
+# 💟 Agradecimentos ##
 **É o Grupo 4!**
  <agradecimento>
  🍰🍵
