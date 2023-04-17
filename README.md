@@ -43,15 +43,25 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |   |    |- 📑 Estoque.java
    |   |    |- 📑 Ong.java
    |   |    |- 📑 Pessoa.java
+   |   |- 📁 assets
+   |   |    |- 📑 diagrama_classes.pu
+   |   |    |- 📑 diagrama_classes.png
+   |   |    |- 📑 caso_de_uso.pu
+   |   |    |- 📑 caso_de_uso.png
+   |   |    |- 📑 eap.pu
+   |   |    |- 📑 eap.pnp
    |- 📑 .gitignore
    |- 📑 README.md
 ```
 
  #### Diagrama de Classes
- ![Diagrama de Classe]()
+
+ ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/diagrama_classes.png)
  
  ##### Adicionais
- - [EAP]()
+ | EAP | Caso de Uso |
+ |-|-|
+ ![EAP](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/eap.png) | ![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/caso_de_uso.png)
   
 ## 💟 Agradecimentos ##
 **É o Grupo 4!**

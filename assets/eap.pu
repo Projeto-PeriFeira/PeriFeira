@@ -1,0 +1,15 @@
+@startwbs
+!theme blueprint
+'skinparam monochrome reverse
++ Produtos
+	+ Cesta
+		+ Tamanhos
+			+ Pequeno
+			+ Grande
+			+ Médio
+		+ Tipos
+			+ Surpresa
+				+ Avulso
+	+ Sacola
+		+ Avulso
+@endwbs

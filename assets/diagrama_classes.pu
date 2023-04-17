@@ -1,0 +1,11 @@
+@startuml
+skinparam monochrome reverse
+skinparam usecase {
+	BackgroundColor  white
+	BorderColor white
+}
+class PostagemController {
+	+ teste
+	- teste
+}
+@enduml
