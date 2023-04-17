@@ -53,7 +53,7 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 .gitignore
    |- 📑 README.md
 ```
- 
+
  #### Diagrama de Classes
 
  ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/diagrama_classes.png)
