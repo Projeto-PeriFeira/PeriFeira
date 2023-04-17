@@ -1,0 +1,17 @@
+@startmindmap
+skinparam monochrome reverse
+title Mapa mental do EAP
++ Estrutura Analitica de Projetos
+++ Caso de uso
+++ Estrutura Analitica de Produto
+++ Estimativa
++++ Estimativa Paramétrica
+++++ Usar de parametros de ferramentas
++++ Estimativa Analóga
+++++ Pesquisa e resultados do passado
+++ Sequenciar Atividades
++++ Tabela de precendencia
++++ Diagrama de Redes
++++ Caminho Critico
+++++ Calculo de folga
+@endmindmap
