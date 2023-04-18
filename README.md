@@ -79,12 +79,12 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
 
  ### Diagrama de Classes
 
- ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/diagrama_classes.png)
+ ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/diagrama_classes.png)
  
  #### Adicionais
  | EAP | Caso de Uso |
  |-|-|
- ![EAP](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/eap.png) | ![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/feature/assets/caso_de_uso.png)
+ ![EAP](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/eap.png) | ![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/caso_de_uso.png)
   
 # 💟 Agradecimentos ##
 **É o Grupo 4!**
