@@ -1,11 +1,55 @@
 @startuml
+allow_mixing
 skinparam monochrome reverse
 skinparam usecase {
 	BackgroundColor  white
 	BorderColor white
 }
-class PostagemController {
-	+ teste
-	- teste
+title Diagrama de Classes
+
+class Categorias {
+	- id: long
+	- descricao: string
+	+ getDescricao(): string
+	+ setDescricao(): void
+	+ getId(): long
+	+ setId(): void
 }
+
+interface PerifeiraApplication {
+
+}
+
+database db_perifeira {
+	entity tb_categorias {
+	  * **id BIGINT**
+	  * description VARCHAR(255)
+	}
+	entity tb_produtos {
+		* **id BIGINT**
+		* **nome VARCHAR(255)**
+		* descricao VARCHAR(255)
+		* quantidade  BIGINT
+		* preco DECIMAL(8,2)
+		* foto VARCHAR(255)
+		* tb_categorias_id BIGINT
+		* tb_usuario_id BIGINT
+	}
+	entity tb_usuario {
+		* **id BIGINT**
+		* **usuario VARCHAR(255)**
+		* nome VARCHAR(255)
+		* senha VARCHAR(255)
+		* cep BIGINT(8)
+		* cpf BIGINT(11)
+		* endereço VARCHAR(255)
+		* foto VARCHAR(255)
+	}
+	tb_categorias |o.right.|{ tb_produtos
+	tb_usuario |o.left.|{ tb_produtos
+}
+
+
+
+
 @enduml
