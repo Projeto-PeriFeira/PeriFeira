@@ -10,7 +10,7 @@
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-![Visitates](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FProjeto-Integrador-Generation%2Fprojeto-integrador&label=V%20I%20S%20I%20T%20A%20N%20T%20E%20S&labelColor=%2320232a&countColor=%2320232a&labelStyle=upper)
+![Acessos](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FProjeto-Integrador-Generation%2Fprojeto-integrador&label=A%20C%20E%20S%20S%20O%20S&labelColor=%2320232a&countColor=%2320232a&labelStyle=upper)
 
 [Sobre o tema](#sobre-o-tema) •
 [📑 Funcionalidades](#-funcionalidades) •
