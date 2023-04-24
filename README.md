@@ -76,9 +76,40 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 README.md
 ```
 
- ### Diagrama de Classes
+ ### Diagrama de entidade e relacionamento
 
- ![Diagrama de Classe](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/diagrama_classes.png)
+```mermaid
+erDiagram
+    tb_categorias {
+        id BIGINT
+        descricao VARCHAR(255)
+    }
+
+   	tb_produtos {
+		BIGINT id
+		VARCHAR(255) nome
+		descricao VARCHAR(255)
+		BIGINT quantidade 
+		DECIMAL(82) preco 
+		VARCHAR(255) foto
+		tb_categorias_id BIGINT
+		tb_usuario_id BIGINT
+    }
+
+    tb_usuario {
+		id BIGINT
+		usuario VARCHAR(255)
+		nome VARCHAR(255)
+		senha VARCHAR(255)
+		cep BIGINT(8)
+		cpf BIGINT(11)
+		endereco VARCHAR(255)
+		foto VARCHAR(255)
+	}
+
+    tb_categorias ||--o{ tb_produtos : contem
+    tb_usuario ||--o{ tb_produtos : contem
+ ```
  
  #### Adicionais
  | EAP | Caso de Uso |
