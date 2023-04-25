@@ -54,6 +54,10 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
 [<img src="https://avatars.githubusercontent.com/u/127500150?v=4" width=170 > <br> <sub> Graziela </sub>](https://github.com/HeiGrazi) | [<img src="https://avatars.githubusercontent.com/u/127527831?v=4" width=170 > <br> <sub> Igor Menezes </sub>](https://github.com/IgorWz) | [<img src="https://avatars.githubusercontent.com/u/112830319?v=4" width=170 > <br> <sub> Jéssica Mendes </sub>](https://github.com/JesscMendesr) | [<img src="https://avatars.githubusercontent.com/u/127769948?v=4" width=170 > <br> <sub> Jonatas Nascimento </sub>](https://github.com/nascimentojon) | [<img src="https://avatars.githubusercontent.com/u/82914094?v=4" width=170 > <br> <sub> Larissa Pimenta </sub>](https://github.com/LarissaMarquesPimenta) | [<img src="https://avatars.githubusercontent.com/u/115853196?s=96&v=4" width=170 > <br> <sub> Renato Nunes </sub>](https://github.com/renatonunes74) |
 | :---: | :---: | :---: | :---: | :---: | :---: |
 
+#### 💟 Agradecimentos
+**É o Grupo 4!**
+ <agradecimento>
+ 🍰🍵
 
 ## 📏 Organização do projeto
 ```
@@ -76,8 +80,7 @@ Sistema desenvolvido em Java utilizando os conceitos de Programação Orientada 
    |- 📑 README.md
 ```
 
- ### Diagrama de entidade e relacionamento
-
+### Diagrama de entidade e relacionamento
 ```mermaid
 erDiagram
     tb_categorias {
@@ -110,13 +113,18 @@ erDiagram
     tb_categorias ||--o{ tb_produtos : contem
     tb_usuario ||--o{ tb_produtos : contem
  ```
- 
- #### Adicionais
- | EAP | Caso de Uso |
- |-|-|
- ![EAP](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/eap.png) | ![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/caso_de_uso.png)
-  
-# 💟 Agradecimentos ##
-**É o Grupo 4!**
- <agradecimento>
- 🍰🍵
+### EAP
+```mermaid
+graph TD
+A[Produtos] --> B[Sacola]
+A --> C[Cesta]
+C --> D[Tamanhos]
+D --> E[Pequeno]
+D --> F[Grande]
+D --> G[Médio]
+B --> H[Avulso]
+C --> I[Tipos]
+I --> J[Surpresa]
+```
+### Caso de Uso
+![Caso de Uso](https://github.com/Projeto-Integrador-Generation/projeto-integrador/blob/main/assets/caso_de_uso.png)
