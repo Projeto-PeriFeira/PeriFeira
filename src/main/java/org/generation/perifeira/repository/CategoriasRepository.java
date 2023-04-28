@@ -8,7 +8,7 @@ import org.springframework.data.repository.query.Param;
 
 public interface CategoriasRepository extends JpaRepository<Categorias, Long>{
 	
-	public List <Categorias> findAllByDescricaoContainingIgnoreCase(@Param("tipo")String descricao);
+	public List <Categorias> findAllByDescricaoContainingIgnoreCase(@Param("descricao")String descricao);
 	
 
 }

@@ -40,6 +40,10 @@ public class Produtos {
 	@ManyToOne
 	@JsonIgnoreProperties("produtos")
 	private Categorias categorias;
+	
+	@ManyToOne
+	@JsonIgnoreProperties("postagem")
+	private Usuario usuario;
 
 	public Categorias getCategorias() {
 		return categorias;
@@ -95,6 +99,14 @@ public class Produtos {
 
 	public void setFoto(String foto) {
 		this.foto = foto;
+	}
+
+	public Usuario getUsuario() {
+		return usuario;
+	}
+
+	public void setUsuario(Usuario usuario) {
+		this.usuario = usuario;
 	}
 	
 
