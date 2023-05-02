@@ -42,7 +42,7 @@ public class Produtos {
 	private Categorias categorias;
 	
 	@ManyToOne
-	@JsonIgnoreProperties("postagem")
+	@JsonIgnoreProperties("produtos")
 	private Usuario usuario;
 
 	public Categorias getCategorias() {
