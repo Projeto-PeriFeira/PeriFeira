@@ -18,8 +18,6 @@
 [💻 Desenvolvedores](#-desenvolvedores) •
 [📏 Organização do Projeto](#-organização-do-projeto)
 
-Este projeto faz parte da finalização do Bloco 2 e 3 do Bootcamp Full-Stack Java da turma 63 [Generation Brasil](https://brazil.generation.org/).
-
 </div>
 
 
