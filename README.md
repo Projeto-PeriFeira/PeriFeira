@@ -37,7 +37,7 @@ Aplicamos os conceitos de:
 
 <div align="center">
 
-<frase conceitual do projeto>
+PeriFeira é uma loja online de alimentos orgânicos voltada para comunidades periféricas que prioriza alimentos sazonais e que seriam descartados por não serem considerados "bonitos", visando oferecer um custo mais acessível aos consumidores. 
 
 </div>
 
