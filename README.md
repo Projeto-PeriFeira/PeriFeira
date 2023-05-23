@@ -1,5 +1,5 @@
 <div align="center">
-<img src="https://media-public.canva.com/C0TRw/MAE3u6C0TRw/1/tl.png" width=90px>
+<img src="https://github.com/Projeto-PeriFeira/PeriFeira_React/blob/main/src/assets/logo.png">
 
 # Projeto Integrador - PeriFeira
 ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
